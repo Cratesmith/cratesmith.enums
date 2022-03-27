@@ -16,3 +16,11 @@ Also adds the following extension methods for enums:
 	public static T ToEnum<T>(this long self) where T : Enum 
 	public static T ToEnumFromIndex<T>(this int self) where T : Enum
 	public static bool TryGetEnumFromIndex<T>(this int self, out T output) where T : Enum
+
+# installation 
+In the package manager 
+1. click the plus icon, 
+	
+2. select "Add Package from Git URL" and paste in the following URL
+	
+	https://github.com/Cratesmith/cratesmith.enums.git
